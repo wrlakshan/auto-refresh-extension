@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Refresh Tab</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Auto Refresh Tab</h1>
+  <label for="refreshToggle">
+    <input type="checkbox" id="refreshToggle"> Enable Auto Refresh
+  </label>
+  <label for="refreshInterval">Refresh Interval (seconds):</label>
+  <input type="number" id="refreshInterval" min="1" value="5">
+  <label for="inactivityToggle">
+    <input type="checkbox" id="inactivityToggle"> Check User Inactivity
+  </label>
+  <button id="saveButton">Save</button>
+  <script src="popup.js"></script>
+</body>
+</html>
